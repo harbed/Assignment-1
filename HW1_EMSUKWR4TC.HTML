@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 1</title>
+    <style>
+        .submission-form {
+            max-width: 1000px;
+            margin: 2rem auto;
+            border:whitesmoke;
+            padding: 2rem;
+            background-color: whitesmoke;
+            border-radius: 5px;
+        }
+         label {
+            display:block;
+            padding: 0.5rem 0.5rem ;
+}
+        input{width: 100%;
+            padding: 12px;
+            border: 1px solid whitesmoke;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+
+        }
+         textarea{
+            display:block;
+            width: 100%;
+            height: 250px;
+            border: whitesmoke;
+        
+        }
+
+    button {
+        border: 0px;
+        background: green;
+        padding: 0.5rem;
+        color: white;
+        margin: 0.5rem 0;
+        width: auto;
+        cursor: pointer;
+        margin-top: 30px;
+        border-radius: 5px;
+        
+        
+    
+    }
+    select{
+        width:100% ;
+        padding: 12px;
+        border: whitesmoke;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+    </style>
+</head>
+<body>
+    <form class="submission-form">
+
+    <label for="">First Name</label>
+        <input type="" id = "First Name" placeholder="your name">
+
+        <label for="">Last Name</label>
+        <input type="" id = "Last Name" placeholder="your name">
+
+        <label for="Country">Contry</label>
+        <select id="Country" name="Country"> <br>     
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ghana">Ghana</option>
+            <option value="Togo">Togo</option>
+            <option value="Gambia">Gambia</option><br>
+            </select>
+
+            <label for="Subject">Subject</label>
+    <textarea id="Subject" name= "Subject" placeholder= "Write Something.."></textarea>
+
+    <button>Submit</button>
+    </form>
+
+</body>
+</html>
